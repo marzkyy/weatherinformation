@@ -1,0 +1,38 @@
+/* Increase the thickness of the scrollbar */
+.scroll-bar {
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+    -fx-opacity: 1; /* Ensure the scrollbar is visible */
+    -fx-pref-height: 100px; /* Set the height to 100px for the horizontal scrollbar */
+}
+
+/* Increase the thickness of the scrollbar thumb */
+.scroll-bar .thumb {
+    -fx-background-color: transparent;
+    -fx-pref-height: 100px; /* Increase the thumb height to match the scrollbar thickness */
+}
+
+/* Move the left and right arrows to the middle of each side */
+.scroll-bar .increment-button, .scroll-bar .decrement-button {
+    -fx-background-color: transparent;
+    -fx-padding: 0;
+    -fx-alignment: center;
+    -fx-pref-width: 20px;
+    -fx-pref-height: 100px; /* Match the height of the scrollbar */
+}
+
+/* Position the left and right arrows in the middle vertically */
+.scroll-bar .increment-button {
+    -fx-layout-x: -15px; /* Move to the right edge */
+    -fx-layout-y: 50%;
+}
+
+.scroll-bar .decrement-button {
+    -fx-layout-x: -15px; /* Move to the left edge */
+    -fx-layout-y: 50%;
+}
+
+/* Style the track */
+.scroll-bar .track {
+    -fx-background-color: transparent; /* Make track invisible */
+}

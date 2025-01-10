@@ -1,0 +1,21 @@
+.anchorpane{
+    -fx-background-color: rgb(189, 213, 225);
+    -fx-background-radius: 10px;
+}
+
+.middle-pane {
+    -fx-background-color: #2E3335;
+}
+
+.btm-pane{
+    -fx-background-color: #2E3335;
+    -fx-background-radius: 0 0 10 10;
+}
+
+.movable-pane {
+    -fx-background-color: #101110;
+    -fx-border-color: #333;
+    -fx-border-width: 2px;
+    -fx-background-radius: 5px;
+    -fx-padding: 10px;
+}
