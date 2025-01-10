@@ -15,7 +15,7 @@ public class ApiHelper {
 
     private static final String BASE_URL = "https://api.openweathermap.org/data/2.5/weather";
     private static final String FORECAST_URL = "https://api.openweathermap.org/data/2.5/forecast";
-    private static final String API_KEY = "08ff1488ae3b0074f493f57da3481e27";  // Replace with your actual API key
+    private static final String API_KEY = "";  // Replace with your actual API key
 
     private String unitSystem = "metric"; // Default unit system is metric
 
