@@ -6,11 +6,11 @@ A Java-based GUI application that provides real-time weather updates using API i
 
 ## 📌 About the Project
 
-This is a completed programming assignment for my coursework, where I developed a **Weather Information App** using Java. The app features a user-friendly graphical interface built with **JavaFX** (or **Swing**, depending on your choice), and integrates with a public weather API to fetch and display live weather data based on user input.
+This is a completed programming assignment for my coursework, where I developed a **Weather Information App** using Java. The app features a user-friendly graphical interface built with **JavaFX**, and integrates with a public weather API to fetch and display live weather data based on user input.
 
 The goal of the project was to demonstrate practical implementation of:
 - API integration and JSON data parsing in Java
-- GUI development using JavaFX/Swing
+- GUI development using JavaFX
 - Input validation and robust error handling
 
 ---
@@ -18,9 +18,9 @@ The goal of the project was to demonstrate practical implementation of:
 ## 🛠️ Technologies Used
 
 - **Java 8+**
-- **JavaFX** / **Java Swing** (depending on your implementation)
-- **Weather API** (e.g., OpenWeatherMap)
-- **Gson / org.json** for parsing API responses (if applicable)
+- **JavaFX**
+- **Weather API** (OpenWeatherMap)
+- **Gson / org.json** for parsing API responses
 
 ---
 
