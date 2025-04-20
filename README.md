@@ -39,4 +39,4 @@ The goal of the project was to demonstrate practical implementation of:
 1. **Clone the repository**
    ```bash
    git clone https://github.com/marzkyy/weatherinformation.git
-   cd weather-information-app
+   cd weatherinformation
